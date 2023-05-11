@@ -1,0 +1,127 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8C5BB91F-72CF-D8F2-FF1D-512784BD04D9" name="Funcionario_Empresa">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 10:24:19 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_func_emp" id="FDC7331E-F322-B3B6-81DA-8FB46C1C5A34">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 11:55:59 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,6,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empresa" id="5AC37D77-22C0-954D-44F9-FCE4B45A049A">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 11:55:07 UTC</createdTime>
+<generatorID>7D562745-B1CC-917B-3C0E-1D17E3092AD9</generatorID>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<referedAttribute>16E06484-EE22-7DFA-1741-0D4DCCBD6ED7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpf_func_emp" id="651DE5BC-80A1-002C-A742-FEB7155D7854">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 12:27:20 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nm_func_emp" id="FA1941FB-2D54-6D31-E2FB-60D0916EC08F">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 11:55:10 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="usuario_func_emp" id="EFE4AAE0-4A7F-315E-686A-0618B610B78D">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 11:55:27 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="senha_func_emp" id="88F07AA7-2CD7-3B2C-1BB1-665DA1AB9886">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 11:55:45 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="foto_perfil_func_emp" id="9B95993D-595E-4343-E0BF-45FB7BAC9A72">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 12:28:39 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT010</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="05946B11-981E-C19F-C145-A1760B965500" name="Funcionario_Empresa PK">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 11:55:07 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5AC37D77-22C0-954D-44F9-FCE4B45A049A</attributeRef>
+<attributeRef>FDC7331E-F322-B3B6-81DA-8FB46C1C5A34</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

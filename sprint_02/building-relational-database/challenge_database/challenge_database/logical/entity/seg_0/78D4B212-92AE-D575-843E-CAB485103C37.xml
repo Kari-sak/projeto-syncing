@@ -1,0 +1,91 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="78D4B212-92AE-D575-843E-CAB485103C37" name="Fone_Funcionario_Empresa">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 10:24:54 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_empresa" id="C39BCF5D-415B-E136-821E-179C9B656B30">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 11:56:54 UTC</createdTime>
+<generatorID>F2531248-38BF-D7AE-5D1B-2D520918BC83</generatorID>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<referedAttribute>5AC37D77-22C0-954D-44F9-FCE4B45A049A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_func_emp" id="FEEC64DB-F363-CF88-AC8B-DB18D2EA271A">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 11:56:54 UTC</createdTime>
+<generatorID>F2531248-38BF-D7AE-5D1B-2D520918BC83</generatorID>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<referedAttribute>FDC7331E-F322-B3B6-81DA-8FB46C1C5A34</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seq_fone_func" id="B33AC0E1-59EE-24AD-99FA-724CBF3F2777">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 11:57:10 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fone_func_emp" id="037746A9-85C7-958C-CA8B-A3BABC5A02B6">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 11:57:26 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>11</dataTypePrecision>
+<ownDataTypeParameters>,11,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="260B92F9-79EE-11E8-16ED-7278CBD3F265" name="Fone_Funcionario_Empresa PK">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 11:56:54 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>C39BCF5D-415B-E136-821E-179C9B656B30</attributeRef>
+<attributeRef>FEEC64DB-F363-CF88-AC8B-DB18D2EA271A</attributeRef>
+<attributeRef>B33AC0E1-59EE-24AD-99FA-724CBF3F2777</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

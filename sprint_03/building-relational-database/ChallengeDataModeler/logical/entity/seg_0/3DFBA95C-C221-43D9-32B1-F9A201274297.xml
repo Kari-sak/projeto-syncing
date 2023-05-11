@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3DFBA95C-C221-43D9-32B1-F9A201274297" name="Tags_Vaga">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-09-02 13:39:35 UTC</createdTime>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<engineerTo>
+<item key="3E536A91-15B6-856E-C2D1-23CEE34FA101" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_tag_vaga" id="FA4463E1-44BE-4B9F-F042-BB049C68B222">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-09-02 13:39:42 UTC</createdTime>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<engineerTo>
+<item key="3E536A91-15B6-856E-C2D1-23CEE34FA101" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="peso_tag" id="64D36F53-A72D-5839-5904-434D8CBB6D4B">
+<createdBy>mastr</createdBy>
+<createdTime>2022-09-11 15:20:18 UTC</createdTime>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<engineerTo>
+<item key="3E536A91-15B6-856E-C2D1-23CEE34FA101" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<dataTypeScale>1</dataTypeScale>
+<ownDataTypeParameters>,2,1</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="82138AAD-0566-618C-FF60-FC255E8FB9C7" name="Tags_Vaga PK">
+<createdBy>mastr</createdBy>
+<createdTime>2022-09-05 13:10:01 UTC</createdTime>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<engineerTo>
+<item key="3E536A91-15B6-856E-C2D1-23CEE34FA101" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FA4463E1-44BE-4B9F-F042-BB049C68B222</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

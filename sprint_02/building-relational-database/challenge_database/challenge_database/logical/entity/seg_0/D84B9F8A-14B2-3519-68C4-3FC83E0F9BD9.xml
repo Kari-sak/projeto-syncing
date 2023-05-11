@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="D84B9F8A-14B2-3519-68C4-3FC83E0F9BD9" name="Email_candidato">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 10:24:00 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_candidato" id="CCA2BFB9-B547-D6CA-0D1D-B2058DBD9881">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 10:29:42 UTC</createdTime>
+<generatorID>587FFD5A-6835-0A6F-2EDA-DC1D3CEFCC15</generatorID>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<referedAttribute>02C551BF-A4E6-76DB-252C-8247B6511507</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seq_email_candidato" id="A6D94311-45F0-F26C-4810-A1DDFDE7D938">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 10:30:16 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email_candidato" id="BAFDAAD2-1058-660C-C168-878E564303F0">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 10:30:51 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>80</dataTypeSize>
+<ownDataTypeParameters>80,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AC50D4A1-8988-CBE0-2BB5-281E8880A21D" name="Email_candidato PK">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 10:29:37 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CCA2BFB9-B547-D6CA-0D1D-B2058DBD9881</attributeRef>
+<attributeRef>A6D94311-45F0-F26C-4810-A1DDFDE7D938</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

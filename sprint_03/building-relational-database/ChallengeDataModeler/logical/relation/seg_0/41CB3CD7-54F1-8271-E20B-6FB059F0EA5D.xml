@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Fone_Empresa" directorySegmentName="seg_0" id="41CB3CD7-54F1-8271-E20B-6FB059F0EA5D">
+<createdBy>mastr</createdBy>
+<createdTime>2022-09-11 14:08:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<engineerTo>
+<item key="3E536A91-15B6-856E-C2D1-23CEE34FA101" value="true"/>
+</engineerTo>
+<sourcePk>E483672D-4E18-5BEE-7D84-595438DFB0B2</sourcePk>
+<identifying>true</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>6CB1D497-7381-9C1D-222A-42E57E82D79F</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>9116E149-FE8D-E15D-B5ED-DFEF4A742F03</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

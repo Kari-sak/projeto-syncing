@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="CF494F24-8880-E14F-AD42-78DC16589E89" name="Fone_Candidato">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-09-02 13:20:34 UTC</createdTime>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<engineerTo>
+<item key="3E536A91-15B6-856E-C2D1-23CEE34FA101" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fone" id="0E4C0D8F-0CD1-6E68-B583-48A6A201AA63">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-09-02 13:20:42 UTC</createdTime>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<engineerTo>
+<item key="3E536A91-15B6-856E-C2D1-23CEE34FA101" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seq_fone" id="A4651975-A1E7-815F-A7E2-95C15E416BFC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-09-02 13:20:50 UTC</createdTime>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<engineerTo>
+<item key="3E536A91-15B6-856E-C2D1-23CEE34FA101" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_candidato" id="21DEA743-3ABA-3BA9-028F-3756F2DB29CB">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-09-08 12:03:28 UTC</createdTime>
+<generatorID>9C76281B-7796-0EBE-64DD-578845403846</generatorID>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<engineerTo>
+<item key="3E536A91-15B6-856E-C2D1-23CEE34FA101" value="true"/>
+</engineerTo>
+<referedAttribute>2F3B0E9B-8C9E-CDD2-5221-3919A7DF5849</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9BCAAB2-2BF1-A7C3-5CE3-31B2BFE235E4" name="Fone PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-09-02 13:20:58 UTC</createdTime>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<engineerTo>
+<item key="3E536A91-15B6-856E-C2D1-23CEE34FA101" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>21DEA743-3ABA-3BA9-028F-3756F2DB29CB</attributeRef>
+<attributeRef>0E4C0D8F-0CD1-6E68-B583-48A6A201AA63</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

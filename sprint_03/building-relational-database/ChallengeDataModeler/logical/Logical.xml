@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="352F97EE-84E1-7258-9B59-6781980D3C38" mainViewID="6634E886-C283-EF66-044A-A88264E471C3">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-09-02 11:53:06 UTC</createdTime>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

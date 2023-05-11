@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="C54BBE0E-ACDF-9348-49A5-96550EB2EE48" name="Disponibilidade_Vaga">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 10:28:24 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_vagas" id="B9E282E8-76E8-B566-E583-6F35A087E3D6">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 11:42:10 UTC</createdTime>
+<generatorID>4ECCFBC0-3F64-F7CC-D5A3-5595FE9CB5FB</generatorID>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<referedAttribute>EDE6706C-3C1D-99AD-D552-8E854B074B8C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empresa" id="EC58D4B6-E439-808B-0029-0019A36716A9">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 12:11:18 UTC</createdTime>
+<generatorID>70B884F5-2869-4E65-1A50-CB673AD6D7AA</generatorID>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<referedAttribute>5AC37D77-22C0-954D-44F9-FCE4B45A049A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_func_emp" id="5159E82E-A306-D361-FF60-DEE0E7230ACB">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 12:11:18 UTC</createdTime>
+<generatorID>70B884F5-2869-4E65-1A50-CB673AD6D7AA</generatorID>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<referedAttribute>FDC7331E-F322-B3B6-81DA-8FB46C1C5A34</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="AB1EAE54-B8CB-DC83-8497-DCBB2800E44B" name="Disponibilidade_Vaga PK">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 11:42:09 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B9E282E8-76E8-B566-E583-6F35A087E3D6</attributeRef>
+<attributeRef>EC58D4B6-E439-808B-0029-0019A36716A9</attributeRef>
+<attributeRef>5159E82E-A306-D361-FF60-DEE0E7230ACB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

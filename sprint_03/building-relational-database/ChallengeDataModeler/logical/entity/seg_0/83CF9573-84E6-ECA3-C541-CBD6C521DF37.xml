@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="83CF9573-84E6-ECA3-C541-CBD6C521DF37" name="Candidatura">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-09-02 13:27:12 UTC</createdTime>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<engineerTo>
+<item key="3E536A91-15B6-856E-C2D1-23CEE34FA101" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_candidato" id="A740C640-9EB3-CC8C-100C-3039DDDDA089">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-09-08 12:03:28 UTC</createdTime>
+<generatorID>790C990C-5C1B-8A24-AA6F-8F4CAC6A9A94</generatorID>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<engineerTo>
+<item key="3E536A91-15B6-856E-C2D1-23CEE34FA101" value="true"/>
+</engineerTo>
+<referedAttribute>2F3B0E9B-8C9E-CDD2-5221-3919A7DF5849</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vaga" id="EBBC6F1E-F775-E3CA-AB32-1737855747CC">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-09-08 12:03:57 UTC</createdTime>
+<generatorID>A01752E3-EAC3-D6F4-2AFF-DC61EC8B6DD3</generatorID>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<engineerTo>
+<item key="3E536A91-15B6-856E-C2D1-23CEE34FA101" value="true"/>
+</engineerTo>
+<referedAttribute>9BC2B5E1-0255-0B4B-F682-F55E54A7635A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empresa" id="76A6A093-285D-3B3C-D90A-A9E9BD3F451E">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-09-08 13:18:53 UTC</createdTime>
+<generatorID>A01752E3-EAC3-D6F4-2AFF-DC61EC8B6DD3</generatorID>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<engineerTo>
+<item key="3E536A91-15B6-856E-C2D1-23CEE34FA101" value="true"/>
+</engineerTo>
+<referedAttribute>B0BA82A7-560C-9FD9-02AE-FBD1C126EA24</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4E290EC1-F175-58F7-C6CF-58D4DF4C3A8E" name="Candidatura PK">
+<createdBy>logonrmlocal</createdBy>
+<createdTime>2022-09-02 13:32:51 UTC</createdTime>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<engineerTo>
+<item key="3E536A91-15B6-856E-C2D1-23CEE34FA101" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A740C640-9EB3-CC8C-100C-3039DDDDA089</attributeRef>
+<attributeRef>EBBC6F1E-F775-E3CA-AB32-1737855747CC</attributeRef>
+<attributeRef>76A6A093-285D-3B3C-D90A-A9E9BD3F451E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

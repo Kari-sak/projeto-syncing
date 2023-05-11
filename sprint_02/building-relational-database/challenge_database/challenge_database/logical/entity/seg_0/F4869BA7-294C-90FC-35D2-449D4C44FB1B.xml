@@ -1,0 +1,80 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F4869BA7-294C-90FC-35D2-449D4C44FB1B" name="Candidatura">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 10:23:32 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_candidato" id="11718615-72BA-FE8C-BA59-9EAE0EED5485">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 10:29:42 UTC</createdTime>
+<generatorID>FE9AD3F2-A3D1-E4D7-4AA5-69E62C2FE63A</generatorID>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<referedAttribute>02C551BF-A4E6-76DB-252C-8247B6511507</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vagas" id="96165E0D-FF28-45E6-B115-702E3C0C73F6">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 11:42:10 UTC</createdTime>
+<generatorID>2344DC7B-E668-9526-95AA-662C40D0D3A2</generatorID>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<referedAttribute>EDE6706C-3C1D-99AD-D552-8E854B074B8C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empresa" id="657F9ABD-26BF-651D-374B-8FB7F4B17D07">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 11:42:27 UTC</createdTime>
+<generatorID>D3A5D1B4-3242-5B65-55D2-A051162465D0</generatorID>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<referedAttribute>16E06484-EE22-7DFA-1741-0D4DCCBD6ED7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="93CB8C54-9634-AC17-D34B-C84C908235F1" name="Candidatura PK">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 10:29:37 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>11718615-72BA-FE8C-BA59-9EAE0EED5485</attributeRef>
+<attributeRef>96165E0D-FF28-45E6-B115-702E3C0C73F6</attributeRef>
+<attributeRef>657F9ABD-26BF-651D-374B-8FB7F4B17D07</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

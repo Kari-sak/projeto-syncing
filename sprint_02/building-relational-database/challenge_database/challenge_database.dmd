@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="challenge_database" id="113F074D-9023-875C-4D0B-13B697AD7131" version="3.5">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 10:20:13 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>113F074D-9023-875C-4D0B-13B697AD7131</designId>
+</OSDM_Design>

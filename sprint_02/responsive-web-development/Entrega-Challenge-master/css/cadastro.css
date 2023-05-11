@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+/* ========PÁGINA DE CADASTRO========================================================================= */
+
+.main_cadastro{
+  height: 900px; 
+  background: #ebebeb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cadastro_esquerda {
+  width: 50vw;
+  height: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cadastro_esquerda h1{
+  font-size: 2vw;
+  color: #012a4a;
+ }
+
+.imagem_cadastro{
+  width: 35vw;
+}
+
+.cadastro_direita {
+  width: 50vw;
+  height: 30vw;
+  display: flex;                            
+  justify-content: center;
+  align-items: center;
+}
+
+.card_cadastro{
+  height: 30% auto;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 30px 35px;
+  background: #4991c0;
+  border-radius: 20px;
+  box-shadow: 0px 10px 40px #284B63;
+}
+
+.card_cadastro h1 {
+  color: #f0ffffde;
+  font-weight: 800;
+  margin: 0;
+}
+
+.textfield{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 10px 0px;
+}
+
+.textfield input {
+  width: 100%;
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  background: #284B63;
+  color: #f0ffff;
+  font-size: 12pt;
+  box-shadow: 0px 10px 40px #284B63;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.textfield label {
+  color: #f0ffffea;
+  margin-bottom: 10px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button_cadastro {
+  width: 100%;
+  padding: 16px 0px;
+  margin: 25px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: black;
+  background: #7bb9e2;
+  cursor: pointer;
+}
+
+::placeholder{
+  color:#e3e7e7c5;
+}
+
+.card_cadastro h1 {
+  margin: 0px 0px 8px
+}
+
+@media only screen and (max-width: 950px) {
+  .card_cadastro{
+    width: 85%;
+  }
+}
+
+@media only screen and  (max-width: 600px) {
+  .main_cadastro{
+    flex-direction: column;
+  }
+  .cadastro_esquerda h1 {
+    display: none;
+  }
+
+  .cadastro_esquerda{
+    width: 100%;
+    height: auto;
+  }
+
+  .cadastro_direita{
+    width: 100%;
+    height: auto;
+  }
+
+}
+

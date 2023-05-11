@@ -1,0 +1,224 @@
+/* ========IMPORT========================================================================= */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
+
+/* ========GLOBAL========================================================================= */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+}
+
+body {
+  background-color: #ebebeb;
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* ========PAGINA PRINCIPAL ========================================================================= */
+header h1 {
+  font-size: 20;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+span {
+  color: #284B63;
+}
+
+#logo {
+  display: block;
+  margin: 0px auto;
+  width: 400px;
+  height: 450px;
+  margin-top: 25px;
+}
+
+.conteudo_principal {
+  padding: 30px;
+}
+
+header {
+  background-color: #4991c0;
+  padding: 2px;
+  height: 8.75rem;
+  border-bottom: #3d7aa3 3.5px solid;
+}
+
+.container {
+  margin: 0 auto;
+  width: 940px;
+  position: relative;
+}
+
+header h1 {
+  color: #fff;
+  font-size: 40px;
+  font-weight: bold;
+  margin-top: 50px;
+  transition: all 0.5s ease-in-out;
+}
+
+nav {
+  position: absolute;
+  top: 20px;
+  right: 0;
+  width: 50%;
+}
+
+nav ul {
+  font-size: 0;
+
+  text-align: right;
+  padding: 1px;
+}
+
+nav li {
+  display: inline-block;
+}
+
+li#cadastro {
+  border-right: 3px solid #fff;
+}
+
+nav a {
+  color: #fff;
+  font-size: 22px;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 8px 16px;
+}
+
+footer {
+  background-color: #4991c0;
+  padding: 30px;
+  
+  border-top: #3d7aa3 2px solid;
+  color: white;
+  display: flex;
+}
+
+footer p {
+  font: 18px Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 10px;
+  position: absolute;
+  left: 42%;
+}
+
+.three_box {
+  
+  background-color: #ebebeb;
+}
+
+.box_text {
+  background: #fff;
+  text-align: center;
+  padding: 50px 20px 20px 20px;
+  border: #4991c1 solid 1px;
+  border-radius: 15px;
+  box-shadow: #3d7aa3 0px 0px 9px 4px
+}
+
+.box_text h3 {
+  color: #121010;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: bold;
+  padding-bottom: 25px;
+  
+}
+
+.box_text p {
+  font-size: 17px;
+  color: #050505;
+  line-height: 30px;
+  width: 15em;
+}
+
+.box_text i {
+  padding-bottom: 25px;
+  display: block;
+}
+
+.row {
+  display: flex;
+  gap: 2em;
+}
+
+.box_text h3 {
+  margin-top: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container2{
+  margin: 0 auto;
+  width: 1060px;
+  position:relative;
+}
+
+.row2{
+  display:block;
+}
+
+.box_chatbot{
+  margin:50px;
+  background: #fff;
+  
+  padding: 50px 20px 20px 20px;
+  border: #4991c0 solid 1px;
+  border-radius: 15px;
+  display: flex;
+
+  box-shadow: #3d7aa3 0px 0px 9px 4px;
+}
+
+.imagem_error{
+  margin-left: 400px;
+}
+
+.button_cadastro{
+  width: 95%;
+  padding: 16px;
+  margin: 10px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  font-family:'Montserrat', sans-serif; 
+  font-size:15px;
+  text-transform: uppercase;
+  color: black;
+  background: #7bb9e2;
+
+  cursor: pointer;
+}
+
+
+  .text_chatbot{
+  color: #121010;
+  font-size: 20px;
+  line-height: 22px;
+  font-weight: bold;
+  padding-bottom: 25px;
+}
+
+.chatbot_text h1 {
+  padding: 0px 0px 15px
+}
+
+.chatbot_text p {
+  margin: 0px 15px 0px 2px
+}
+
+
+
+
+
+

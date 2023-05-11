@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="8AE2FBF6-36B7-E27A-CC7D-358F9D05CDAD" name="Match">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 10:25:52 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_candidato" id="35B5B135-4916-3FEF-CCD7-FD8E9092E5EB">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 10:46:57 UTC</createdTime>
+<generatorID>D7ABF4CB-DF31-4BFB-FC46-61168A035C2C</generatorID>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<referedAttribute>DF523937-25E4-7C14-DBC3-A29F2601484A</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_skill_candidato" id="110AE627-64B7-84FE-7187-05257C8C4166">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 10:46:57 UTC</createdTime>
+<generatorID>D7ABF4CB-DF31-4BFB-FC46-61168A035C2C</generatorID>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<referedAttribute>CD44D8CF-67B8-A151-93E9-C0513A01F569</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_vagas" id="3C195F78-4522-CB4E-AEEF-F66200A6B6BA">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 12:39:42 UTC</createdTime>
+<generatorID>59137896-0710-7B55-598D-0C29E2ECA614</generatorID>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<referedAttribute>ADB447B6-FBDE-0FCE-6A81-94A4FBF600C5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_skills_vagas" id="BCE918CE-A151-98E7-9F85-C8E9B4E78CD6">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 12:39:42 UTC</createdTime>
+<generatorID>59137896-0710-7B55-598D-0C29E2ECA614</generatorID>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<referedAttribute>1451D86D-91E2-DBCF-5826-EEC2CB125D90</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>6</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FABE6BBB-06A0-5AC7-1E27-0438716BE5DC" name="Match PK">
+<createdBy>mastr</createdBy>
+<createdTime>2022-05-22 10:46:57 UTC</createdTime>
+<ownerDesignName>challenge_database</ownerDesignName>
+<engineerTo>
+<item key="2E1DDF04-6318-8CA5-0CAD-B7AAD359AFE8" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>35B5B135-4916-3FEF-CCD7-FD8E9092E5EB</attributeRef>
+<attributeRef>110AE627-64B7-84FE-7187-05257C8C4166</attributeRef>
+<attributeRef>3C195F78-4522-CB4E-AEEF-F66200A6B6BA</attributeRef>
+<attributeRef>BCE918CE-A151-98E7-9F85-C8E9B4E78CD6</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

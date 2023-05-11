@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9116E149-FE8D-E15D-B5ED-DFEF4A742F03" name="Fone_Empresa">
+<createdBy>mastr</createdBy>
+<createdTime>2022-09-11 14:07:54 UTC</createdTime>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<engineerTo>
+<item key="3E536A91-15B6-856E-C2D1-23CEE34FA101" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="fone" id="FC9E2ACD-ABCC-29EB-45A4-B189DF14263A">
+<createdBy>mastr</createdBy>
+<createdTime>2022-09-11 14:09:12 UTC</createdTime>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<engineerTo>
+<item key="3E536A91-15B6-856E-C2D1-23CEE34FA101" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>13</dataTypePrecision>
+<ownDataTypeParameters>,13,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="seq_fone" id="D38E704E-3222-7080-4DEA-0A23D66BF413">
+<createdBy>mastr</createdBy>
+<createdTime>2022-09-11 14:09:23 UTC</createdTime>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<engineerTo>
+<item key="3E536A91-15B6-856E-C2D1-23CEE34FA101" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<ownDataTypeParameters>,1,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empresa" id="AD12E64E-7152-6E63-AC8A-FE85DBB25A01">
+<createdBy>mastr</createdBy>
+<createdTime>2022-09-11 14:08:14 UTC</createdTime>
+<generatorID>41CB3CD7-54F1-8271-E20B-6FB059F0EA5D</generatorID>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<engineerTo>
+<item key="3E536A91-15B6-856E-C2D1-23CEE34FA101" value="true"/>
+</engineerTo>
+<referedAttribute>ECE15A87-3738-3FF5-8E0A-AEF5990E634B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="312EF1BE-483D-B3A8-C05D-CD486DEEFAD6" name="Fone_Empresa PK">
+<createdBy>mastr</createdBy>
+<createdTime>2022-09-11 14:08:14 UTC</createdTime>
+<ownerDesignName>ChallengeDataModeler</ownerDesignName>
+<engineerTo>
+<item key="3E536A91-15B6-856E-C2D1-23CEE34FA101" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AD12E64E-7152-6E63-AC8A-FE85DBB25A01</attributeRef>
+<attributeRef>BF392C33-ABD6-0A06-DDEE-E885C2A9AB15</attributeRef>
+<attributeRef>6784D335-2747-1BFF-C23D-D707A65BB07B</attributeRef>
+<attributeRef>FC9E2ACD-ABCC-29EB-45A4-B189DF14263A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
